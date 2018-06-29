@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (4.7.1)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - Down (0.5.1)
+  - KeychainAccess (3.1.0)
+  - KRActivityIndicatorView (2.1.2)
+  - KRProgressHUD (3.2.2):
+    - KRActivityIndicatorView (= 2.1.2)
+  - ObjectMapper (3.1.0)
+  - RxBlocking (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - RxTest (4.1.2):
+    - RxSwift (~> 4.0)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - Down
+  - KeychainAccess
+  - KRProgressHUD
+  - ObjectMapper
+  - RxBlocking
+  - RxCocoa
+  - RxSwift
+  - RxTest
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireImage
+    - Down
+    - KeychainAccess
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - ObjectMapper
+    - RxBlocking
+    - RxCocoa
+    - RxSwift
+    - RxTest
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  Down: 6ace44ecec0c408826342ed420002f39a18e38c3
+  KeychainAccess: 94c5540b32eabf7bc32bfb976a268e8ea05fd6da
+  KRActivityIndicatorView: 27e7a7e3da7fbc8e5405fbc4088b51cc2095a410
+  KRProgressHUD: 8872da74b1c462e15c82a8fff250a2d34ee82ea2
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  RxBlocking: f6054985901412fc8c02daa84e92d4ba68c61389
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  RxTest: e634f15fd2c2cd0e0120132ef7a4f7be69ad0393
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: ad7ce0472d363598a0bab8577b06bda9edec2540
+
+COCOAPODS: 1.5.0
