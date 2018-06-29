@@ -631,6 +631,7 @@
 				95D4C346209A218F00E51422 /* Frameworks */,
 				95D4C347209A218F00E51422 /* Resources */,
 				33689E323A032813B60E05C4 /* [CP] Embed Pods Frameworks */,
+				959DBA7F20E6B9F600246C02 /* Swift Lint */,
 			);
 			buildRules = (
 			);
@@ -828,6 +829,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hey QiitaTests/Pods-Hey QiitaTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		959DBA7F20E6B9F600246C02 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
 		F6BF34592FA1D99DFBED7077 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

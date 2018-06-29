@@ -15,7 +15,6 @@ enum WhatsNewAction: Action {
     case catchError(Error)
 }
 
-
 // MARK: - ActionCreator
 final class WhatsNewActionCreator {
     private let disposeBag: DisposeBag = DisposeBag()

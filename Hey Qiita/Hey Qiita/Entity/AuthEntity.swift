@@ -21,4 +21,3 @@ struct AuthEntity: Mappable {
         accessToken <- map["token"]
     }
 }
-
